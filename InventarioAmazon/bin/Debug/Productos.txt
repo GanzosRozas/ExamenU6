@@ -1,7 +1,23 @@
-Datos Del producto: samsung
-samsung
-$10,000.00
-80
-Telefono de alta gama 
+
+
+Datos Del producto: Lentes
+Nombre del producto: Lentes
+Precio del producto: $1,500.00
+Cantidad De Stock: 50
+Descripcion Breve del producto: Armazon para los cristales de lentes
+
+
+Datos Del producto: Samsung
+Nombre del producto: Samsung
+Precio del producto: $15,000.00
+Cantidad De Stock: 500
+Descripcion Breve del producto: Telefono de alta gama gamer
+
+
+Datos Del producto: Rompecabezas
+Nombre del producto: Rompecabezas
+Precio del producto: $150.00
+Cantidad De Stock: 651
+Descripcion Breve del producto: Rompecabezas de madera con 6 piezas de encaje 
 
 

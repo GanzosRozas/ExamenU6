@@ -11,10 +11,7 @@ namespace InventarioAmazon
     {
         static void Main(string[] args)
         {
-            //declaracion de variables auxiliares
-            string nombre, descripcion;
-            float precio;
-            int stock;
+       
             int opcion;
 
    
@@ -28,22 +25,14 @@ namespace InventarioAmazon
                 Console.WriteLine("3.- Salida del Programa.");
                 Console.Write("\nQue opcion deseas: ");
                 opcion = Int16.Parse(Console.ReadLine());
+
+                Producto producto = new Producto();
                 switch (opcion)
                 {
                     case 1:
                         //Bloque de escritura
                         try
                         {
-                            Console.Write("Ingrese el Nombre del nuevo producto: ");
-                            nombre=Console.ReadLine();
-                            Console.Write("Ingrese el Precio del nuevo producto: ");
-                            precio = float.Parse(Console.ReadLine());
-                            Console.Write("Ingrese la Cantidad De Stock del nuevo producto: ");
-                            stock = int.Parse(Console.ReadLine());
-                            Console.Write("Ingrese Una BREVE Descripcion del nuevo producto: ");
-                            descripcion = Console.ReadLine();
-
-                            Producto producto = new Producto(nombre, descripcion, precio, stock);
                             producto.IngresarDatos();
                             Console.WriteLine("Datos Guardados\n\rPrecione <Enter> para regresar al menu principal");
                             Console.ReadKey();
@@ -55,10 +44,9 @@ namespace InventarioAmazon
                         }
                         break;
                     case 2:
-                        //bloque de lectura
-                        Producto productos = new Producto();
-                        productos.DesplegarDatos();
-                        Console.ReadKey();
+                        producto.DesplegarDatos();
+                        Console.WriteLine("Datos Guardados\n\rPrecione <Enter> para regresar al menu principal");
+                        Console.ReadKey();     
                         break;
                     case 3:
                         Console.Write("\nPresione <enter> para Salir del programa.");
