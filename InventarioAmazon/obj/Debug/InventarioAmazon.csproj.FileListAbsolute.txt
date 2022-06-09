@@ -1,0 +1,7 @@
+C:\Users\SKU-81583\Desktop\Gits\ExamenU6\InventarioAmazon\bin\Debug\InventarioAmazon.exe.config
+C:\Users\SKU-81583\Desktop\Gits\ExamenU6\InventarioAmazon\bin\Debug\InventarioAmazon.exe
+C:\Users\SKU-81583\Desktop\Gits\ExamenU6\InventarioAmazon\bin\Debug\InventarioAmazon.pdb
+C:\Users\SKU-81583\Desktop\Gits\ExamenU6\InventarioAmazon\obj\Debug\InventarioAmazon.csproj.AssemblyReference.cache
+C:\Users\SKU-81583\Desktop\Gits\ExamenU6\InventarioAmazon\obj\Debug\InventarioAmazon.csproj.CoreCompileInputs.cache
+C:\Users\SKU-81583\Desktop\Gits\ExamenU6\InventarioAmazon\obj\Debug\InventarioAmazon.exe
+C:\Users\SKU-81583\Desktop\Gits\ExamenU6\InventarioAmazon\obj\Debug\InventarioAmazon.pdb
